@@ -19,6 +19,8 @@ helm version
 
 kind create cluster --wait 15m --config kind-config.yaml
 
+kubectl version
+
 kubectl get nodes
 
 docker build -t $docker_username/nginx:dev .
